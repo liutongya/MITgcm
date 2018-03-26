@@ -1,3 +1,7 @@
+C $Header: /u/gcmpack/MITgcm/verification/vermix/code/DIAGNOSTICS_SIZE.h,v 1.1 2009/11/10 02:59:14 dfer Exp $
+C $Name:  $
+
+
 C     Diagnostics Array Dimension
 C     ---------------------------
 C     ndiagMax   :: maximum total number of available diagnostics
@@ -17,8 +21,8 @@ C  and "diagSt_size" (statistics-diags) since values here are deliberately small
       INTEGER    nRegions, sizRegMsk, nStats
       INTEGER    diagSt_size
       PARAMETER( ndiagMax = 500 )
-      PARAMETER( numlists = 10, numperlist = 50, numLevels=2*Nr )
-      PARAMETER( numDiags = 15*Nr )
+      PARAMETER( numlists = 20, numperlist = 50, numLevels=20*Nr )
+      PARAMETER( numDiags = 1000*Nr )
       PARAMETER( nRegions = 0 , sizRegMsk = 1 , nStats = 4 )
       PARAMETER( diagSt_size = 10*Nr )
 
